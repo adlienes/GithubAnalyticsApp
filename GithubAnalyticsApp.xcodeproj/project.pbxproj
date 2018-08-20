@@ -13,6 +13,8 @@
 		BCCB8D6721275B260044C3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D6621275B260044C3FD /* Assets.xcassets */; };
 		BCCB8D6A21275B260044C3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D6821275B260044C3FD /* LaunchScreen.storyboard */; };
 		BCCB8D78212766450044C3FD /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D77212766440044C3FD /* bg.png */; };
+		BCD221CB212B5848000811B2 /* ButtonAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD221CA212B5848000811B2 /* ButtonAnim.swift */; };
+		BCD221CF212B5CDE000811B2 /* arka.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD221CE212B5CDE000811B2 /* arka.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BCCB8D6921275B260044C3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCB8D6B21275B260044C3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCB8D77212766440044C3FD /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		BCD221CA212B5848000811B2 /* ButtonAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnim.swift; sourceTree = "<group>"; };
+		BCD221CE212B5CDE000811B2 /* arka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arka.png; path = ../../../Downloads/arka.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BCCB8D6821275B260044C3FD /* LaunchScreen.storyboard */,
 				BCCB8D6B21275B260044C3FD /* Info.plist */,
 				BCCB8D77212766440044C3FD /* bg.png */,
+				BCD221CE212B5CDE000811B2 /* arka.png */,
+				BCD221CA212B5848000811B2 /* ButtonAnim.swift */,
 			);
 			path = GithubAnalyticsApp;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCCB8D78212766450044C3FD /* bg.png in Resources */,
+				BCD221CF212B5CDE000811B2 /* arka.png in Resources */,
 				BCCB8D6A21275B260044C3FD /* LaunchScreen.storyboard in Resources */,
 				BCCB8D6721275B260044C3FD /* Assets.xcassets in Resources */,
 				BCCB8D6521275B250044C3FD /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD221CB212B5848000811B2 /* ButtonAnim.swift in Sources */,
 				BCCB8D6221275B250044C3FD /* ViewController.swift in Sources */,
 				BCCB8D6021275B250044C3FD /* AppDelegate.swift in Sources */,
 			);

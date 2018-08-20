@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var BSearch: UIButton!
+    @IBOutlet var SearchText: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        BSearch.layer.cornerRadius=8
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func BSearchAction(_ sender: UIButton) {
+        sender.Banimation()
+        print("Text",SearchText.text as! String)
+    }
+    
+   
+    
 }
 

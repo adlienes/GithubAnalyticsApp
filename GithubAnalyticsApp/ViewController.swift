@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        BSearch.layer.cornerRadius=8
-    
+        BSearch.layer.cornerRadius=10
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,9 +27,16 @@ class ViewController: UIViewController {
 
     @IBAction func BSearchAction(_ sender: UIButton) {
         sender.Banimation()
-        print("Text",SearchText.text as! String)
+        //print("Text",SearchText.text as! String)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier=="goHome" {
+            let geciciview=segue.destination as! HomeViewController
+            geciciview.gelenUsername=SearchText.text
+        }
+    }
    
     
 }

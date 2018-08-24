@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BCA50741212C2421009386C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA50740212C2421009386C4 /* HomeViewController.swift */; };
+		BCAA46BF21305362006029FE /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA46BE21305362006029FE /* circle.png */; };
 		BCCB8D6021275B250044C3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D5F21275B250044C3FD /* AppDelegate.swift */; };
 		BCCB8D6221275B250044C3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D6121275B250044C3FD /* ViewController.swift */; };
 		BCCB8D6521275B250044C3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D6321275B250044C3FD /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		BCA50740212C2421009386C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCAA46BE21305362006029FE /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../../../Downloads/circle.png; sourceTree = "<group>"; };
 		BCCB8D5C21275B250044C3FD /* GithubAnalyticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubAnalyticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCB8D5F21275B250044C3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCCB8D6121275B250044C3FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				BCCB8D6B21275B260044C3FD /* Info.plist */,
 				BCCB8D77212766440044C3FD /* bg.png */,
 				BCD221CE212B5CDE000811B2 /* arka.png */,
+				BCAA46BE21305362006029FE /* circle.png */,
 				BCD221CA212B5848000811B2 /* ButtonAnim.swift */,
 				BCA50740212C2421009386C4 /* HomeViewController.swift */,
 			);
@@ -137,6 +140,7 @@
 				BCCB8D78212766450044C3FD /* bg.png in Resources */,
 				BCD221CF212B5CDE000811B2 /* arka.png in Resources */,
 				BCCB8D6A21275B260044C3FD /* LaunchScreen.storyboard in Resources */,
+				BCAA46BF21305362006029FE /* circle.png in Resources */,
 				BCCB8D6721275B260044C3FD /* Assets.xcassets in Resources */,
 				BCCB8D6521275B250044C3FD /* Main.storyboard in Resources */,
 			);

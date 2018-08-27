@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC49796D2134316B00F96035 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC49796C2134316B00F96035 /* WebViewController.swift */; };
+		BC5CCC9521316FCC00D9714E /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CCC9421316FCC00D9714E /* GithubModel.swift */; };
 		BCA50741212C2421009386C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA50740212C2421009386C4 /* HomeViewController.swift */; };
 		BCAA46BF21305362006029FE /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAA46BE21305362006029FE /* circle.png */; };
 		BCCB8D6021275B250044C3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D5F21275B250044C3FD /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC49796C2134316B00F96035 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BC5CCC9421316FCC00D9714E /* GithubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
 		BCA50740212C2421009386C4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BCAA46BE21305362006029FE /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../../../Downloads/circle.png; sourceTree = "<group>"; };
 		BCCB8D5C21275B250044C3FD /* GithubAnalyticsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubAnalyticsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +79,8 @@
 				BCAA46BE21305362006029FE /* circle.png */,
 				BCD221CA212B5848000811B2 /* ButtonAnim.swift */,
 				BCA50740212C2421009386C4 /* HomeViewController.swift */,
+				BC5CCC9421316FCC00D9714E /* GithubModel.swift */,
+				BC49796C2134316B00F96035 /* WebViewController.swift */,
 			);
 			path = GithubAnalyticsApp;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD221CB212B5848000811B2 /* ButtonAnim.swift in Sources */,
+				BC49796D2134316B00F96035 /* WebViewController.swift in Sources */,
+				BC5CCC9521316FCC00D9714E /* GithubModel.swift in Sources */,
 				BCCB8D6221275B250044C3FD /* ViewController.swift in Sources */,
 				BCCB8D6021275B250044C3FD /* AppDelegate.swift in Sources */,
 				BCA50741212C2421009386C4 /* HomeViewController.swift in Sources */,

@@ -11,6 +11,7 @@ struct Model:Decodable {
     
     var avatar_url:URL
     var html_url:URL
+    var repos_url:URL
     var name:String
     //var company:String
     var blog:String

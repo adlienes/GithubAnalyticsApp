@@ -25,9 +25,11 @@ class HomeViewController: UIViewController {
     @IBOutlet var LabelFollowing: UILabel!
     
     @IBOutlet var ButtonWeb: UIButton!
+    @IBOutlet var RepoImageView: UIImageView!
     
     var gelenUsername:String?
     var gidenUrl:URL?
+    var gidenRepoUrl:URL?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +59,7 @@ class HomeViewController: UIViewController {
             LabelBio.text=stories.bio
             LabelTime.text=stories.created_at
             gidenUrl=stories.html_url
+            gidenRepoUrl=stories.repos_url
             
             LabelRepo.text=String(stories.public_repos)
             LabelFollowers.text=String(stories.followers)
@@ -70,6 +73,16 @@ class HomeViewController: UIViewController {
 
         //Verial(username: gelenUsername!)
         
+        let tap = UITapGestureRecognizer(target: self, action: #selector(HomeViewController.tappedMe))
+        RepoImageView.addGestureRecognizer(tap)
+        RepoImageView.isUserInteractionEnabled = true
+        
+    }
+    
+    @objc func tappedMe()
+    {
+        print("Dokunuldu")
+        self.performSegue(withIdentifier: "goTableview", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -78,6 +91,9 @@ class HomeViewController: UIViewController {
             let geciciview=segue.destination as! WebViewController
             geciciview.gelenUrl=gidenUrl
             geciciview.gelenusername=gelenUsername
+        }else if segue.identifier=="goTableview" {
+            let gecicitableview=segue.destination as! RepoTableViewController
+            gecicitableview.gelenRepoUrl=gidenRepoUrl
         }
     }
 
